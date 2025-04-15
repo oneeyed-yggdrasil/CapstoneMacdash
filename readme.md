@@ -1,7 +1,3 @@
-Here’s a complete and professional `README.md` file for your **MacDash Capstone project**. It covers project overview, architecture, technologies, setup, and deployment — all tailored to your actual implementation:
-
----
-
 
 # 💻 MacDash – Capstone E-Commerce Platform
 

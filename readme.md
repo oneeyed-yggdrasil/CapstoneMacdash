@@ -2,7 +2,7 @@ Here’s a complete and professional `README.md` file for your **MacDash Capston
 
 ---
 
-```markdown
+
 # 💻 MacDash – Capstone E-Commerce Platform
 
 MacDash is a containerized e-commerce web application built as part of a Capstone project, designed for secure, scalable, and highly available deployment on AWS using ECS Fargate. It features user authentication, product catalog, cart/checkout functionality, and a CI/CD pipeline integrated with GitHub and AWS CodePipeline.
@@ -25,7 +25,7 @@ MacDash is a containerized e-commerce web application built as part of a Capston
 
 ## 🏗️ Architecture
 
-```
+
 Frontend (React) + Backend (Node.js, SQLite)
         │
         ▼
@@ -38,7 +38,7 @@ ECS Fargate (Frontend + Backend Containers)
 Private Subnets → NAT Gateway → Internet
         ▼
     CloudWatch Logs + CI/CD via CodePipeline
-```
+
 
 - **VPC** with public/private subnets across 2 AZs
 - **ALB** routes frontend (`/`) and backend (`/api`)
